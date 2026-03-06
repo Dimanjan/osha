@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-[#f8f5ef] text-slate-900;
-    background-image: radial-gradient(circle at top right, #f9f2e8 0%, #f3f9f8 45%, #f8f5ef 100%);
+    @apply bg-[#E7E7E7] text-slate-900;
+    background-image: radial-gradient(circle at top right, #DBDBDA 0%, #E7E7E7 45%, #f3f3f3 100%);
   }
 }

@@ -23,7 +23,7 @@ function HomePage({ products }: { products: Product[] }) {
   return (
     <>
       <section className="py-12 md:py-14">
-        <div className="mx-auto w-[min(1280px,95vw)] bg-gradient-to-br from-brand-700 via-brand-500 to-[#169187] rounded-[2rem] text-white p-7 md:p-12 grid gap-8 md:grid-cols-[0.86fr_1.14fr] items-center overflow-hidden shadow-[0_24px_70px_rgba(15,118,110,0.28)]">
+        <div className="mx-auto w-[min(1280px,95vw)] bg-gradient-to-br from-brand-900 via-brand-700 to-brand-500 rounded-[2rem] text-white p-7 md:p-12 grid gap-8 md:grid-cols-[0.86fr_1.14fr] items-center overflow-hidden shadow-[0_24px_70px_rgba(64,3,19,0.34)]">
           <div className="relative z-10">
             <p className="uppercase tracking-[0.25em] text-xs md:text-sm text-brand-100/90">New Season Collection</p>
             <h1 className="font-display text-4xl md:text-6xl mt-3 leading-[1.03]">OSHA Clothing & Apparels</h1>

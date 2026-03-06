@@ -5,13 +5,14 @@ export default {
     extend: {
       colors: {
         brand: {
-          50: '#e6f9f7',
-          100: '#c5f1ec',
-          500: '#0f766e',
-          700: '#0a4f4a',
-          900: '#082a28'
+          50: '#E7E7E7',
+          100: '#DBDBDA',
+          300: '#7D1C4F',
+          500: '#48469D',
+          700: '#7D1C4F',
+          900: '#400313'
         },
-        accent: '#c27b2f'
+        accent: '#7D1C4F'
       },
       fontFamily: {
         sans: ['Manrope', 'sans-serif'],
