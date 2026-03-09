@@ -48,7 +48,7 @@ function HomePage({ products }: { products: Product[] }) {
                 loop
                 playsInline
                 preload="metadata"
-                poster="/optimized/koshki_red.jpg"
+                poster="/optimized/koshki_red.webp"
               >
                 <source src="/krutha_video.mp4" type="video/mp4" />
               </video>

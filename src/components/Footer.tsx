@@ -7,7 +7,7 @@ function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-2 flex items-center gap-2">
             <img
-              src="/optimized/osha_logo.jpg"
+              src="/optimized/osha_logo.webp"
               alt="OSHA Clothing logo"
               width={40}
               height={40}

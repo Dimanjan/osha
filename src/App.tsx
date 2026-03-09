@@ -34,7 +34,7 @@ function App() {
       '@type': 'Store',
       name: 'OSHA Clothing & Apparels',
       url: 'https://osha-clothing.vercel.app',
-      image: 'https://osha-clothing.vercel.app/optimized/osha_logo.jpg',
+      image: 'https://osha-clothing.vercel.app/optimized/osha_logo.webp',
       sameAs: ['https://www.facebook.com/profile.php?id=61583871238196'],
       contactPoint: {
         '@type': 'ContactPoint',

@@ -51,7 +51,7 @@ function Header() {
       <div className="mx-auto w-[min(1240px,94vw)] py-5 grid gap-3 lg:grid-cols-[1fr_minmax(300px,560px)_auto] items-center">
         <Link to="/" className="flex items-center gap-3.5">
           <img
-            src="/optimized/osha_logo.jpg"
+            src="/optimized/osha_logo.webp"
             alt="OSHA Clothing logo"
             width={60}
             height={60}

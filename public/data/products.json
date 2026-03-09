@@ -18,7 +18,7 @@
         "id": "koshki-floral-kurthi-red",
         "color": "Red",
         "price": 5000,
-        "image": "/optimized/koshki_red.jpg"
+        "image": "/optimized/koshki_red.webp"
       }
     ]
   },
@@ -41,7 +41,7 @@
         "id": "koshki-floral-kurthi-green",
         "color": "Green",
         "price": 4900,
-        "image": "/optimized/koshki_green.jpg"
+        "image": "/optimized/koshki_green.webp"
       }
     ]
   },
@@ -64,7 +64,7 @@
         "id": "koshki-floral-kurthi-maroon",
         "color": "Maroon",
         "price": 5000,
-        "image": "/optimized/koshki_maroon.jpg"
+        "image": "/optimized/koshki_maroon.webp"
       }
     ]
   },
@@ -87,7 +87,7 @@
         "id": "koshki-floral-kurthi-black",
         "color": "Black",
         "price": 5000,
-        "image": "/optimized/koshki_black.jpg"
+        "image": "/optimized/koshki_black.webp"
       }
     ]
   },
@@ -110,7 +110,7 @@
         "id": "koshki-floral-kurthi-rani-pink",
         "color": "Rani Pink",
         "price": 5000,
-        "image": "/optimized/koshki_rani_pink.jpg"
+        "image": "/optimized/koshki_rani_pink.webp"
       }
     ]
   },
@@ -132,7 +132,7 @@
         "id": "bridge-town-party-set-red",
         "color": "Red",
         "price": 4900,
-        "image": "/optimized/bridge_town_red.jpg"
+        "image": "/optimized/bridge_town_red.webp"
       }
     ]
   },
@@ -154,7 +154,7 @@
         "id": "bridge-town-party-set-purple",
         "color": "Purple",
         "price": 4900,
-        "image": "/optimized/bridge_town_purple.jpg"
+        "image": "/optimized/bridge_town_purple.webp"
       }
     ]
   },
@@ -176,7 +176,7 @@
         "id": "bridge-town-party-set-lemon-green",
         "color": "Lemon Green",
         "price": 4900,
-        "image": "/optimized/bridge_town_lemon_green.jpg"
+        "image": "/optimized/bridge_town_lemon_green.webp"
       }
     ]
   },
@@ -199,7 +199,7 @@
         "id": "cazora-comfort-fit-maroon",
         "color": "Maroon",
         "price": 4800,
-        "image": "/optimized/cazora_maroon.jpg"
+        "image": "/optimized/cazora_maroon.webp"
       }
     ]
   },
@@ -222,7 +222,7 @@
         "id": "cazora-comfort-fit-peach",
         "color": "Peach",
         "price": 4800,
-        "image": "/optimized/cazora_peach.jpg"
+        "image": "/optimized/cazora_peach.webp"
       }
     ]
   },
@@ -245,7 +245,7 @@
         "id": "cazora-comfort-fit-sky-blue",
         "color": "Sky Blue",
         "price": 4800,
-        "image": "/optimized/cazora_skyblue.jpg"
+        "image": "/optimized/cazora_skyblue.webp"
       }
     ]
   },
@@ -267,7 +267,7 @@
         "id": "portway-signature-set-light-maroon",
         "color": "Light Maroon",
         "price": 3500,
-        "image": "/optimized/portway_light_maroon.jpg"
+        "image": "/optimized/portway_light_maroon.webp"
       }
     ]
   },
@@ -289,7 +289,7 @@
         "id": "portway-signature-set-dark-maroon",
         "color": "Dark Maroon",
         "price": 3500,
-        "image": "/optimized/portway_dark_maroon.jpg"
+        "image": "/optimized/portway_dark_maroon.webp"
       }
     ]
   },
@@ -311,7 +311,7 @@
         "id": "portway-signature-set-red",
         "color": "Red",
         "price": 3800,
-        "image": "/optimized/portway_red.jpg"
+        "image": "/optimized/portway_red.webp"
       }
     ]
   },
@@ -333,7 +333,7 @@
         "id": "linen-cotton-cord-set-pink",
         "color": "Pink",
         "price": 2799,
-        "image": "/optimized/cord_set_linen_cotton_pink.jpg"
+        "image": "/optimized/cord_set_linen_cotton_pink.webp"
       }
     ]
   },
@@ -355,7 +355,7 @@
         "id": "linen-cotton-cord-set-light-blue",
         "color": "Light Blue",
         "price": 2799,
-        "image": "/optimized/cord_set_linen_cotton_light_blue.jpg"
+        "image": "/optimized/cord_set_linen_cotton_light_blue.webp"
       }
     ]
   },
@@ -377,7 +377,7 @@
         "id": "linen-cotton-cord-set-orange",
         "color": "Orange",
         "price": 2799,
-        "image": "/optimized/cordset_cotton_orange.jpg"
+        "image": "/optimized/cordset_cotton_orange.webp"
       }
     ]
   },
@@ -399,19 +399,19 @@
         "id": "p6v1",
         "color": "Navy Blue",
         "price": 3899,
-        "image": "/optimized/woolen_kurtha_set_kud_blue.jpg"
+        "image": "/optimized/woolen_kurtha_set_kud_blue.webp"
       },
       {
         "id": "p6v2",
         "color": "Charcoal",
         "price": 3899,
-        "image": "/optimized/woolen_kurtha_set_kud.jpg"
+        "image": "/optimized/woolen_kurtha_set_kud.webp"
       },
       {
         "id": "p6v3",
         "color": "Classic",
         "price": 3999,
-        "image": "/optimized/modek_woolen_kurtha_set.jpg"
+        "image": "/optimized/modek_woolen_kurtha_set.webp"
       }
     ]
   },
@@ -434,13 +434,13 @@
         "id": "p7v1",
         "color": "Grey",
         "price": 1899,
-        "image": "/optimized/woolen_pant_grey.jpg"
+        "image": "/optimized/woolen_pant_grey.webp"
       },
       {
         "id": "p7v2",
         "color": "White",
         "price": 1899,
-        "image": "/optimized/woolen_pant_white.jpg"
+        "image": "/optimized/woolen_pant_white.webp"
       }
     ]
   },
@@ -462,19 +462,19 @@
         "id": "p8v1",
         "color": "Gold",
         "price": 4299,
-        "image": "/optimized/dola_silk.jpg"
+        "image": "/optimized/dola_silk.webp"
       },
       {
         "id": "p8v2",
         "color": "Yellow",
         "price": 4299,
-        "image": "/optimized/dola_silk_yellow.jpg"
+        "image": "/optimized/dola_silk_yellow.webp"
       },
       {
         "id": "p8v3",
         "color": "Orange",
         "price": 4299,
-        "image": "/optimized/silk_orange.jpg"
+        "image": "/optimized/silk_orange.webp"
       }
     ]
   },
@@ -496,13 +496,13 @@
         "id": "p9v1",
         "color": "Blue",
         "price": 4599,
-        "image": "/optimized/fabric_velvet_blue.jpg"
+        "image": "/optimized/fabric_velvet_blue.webp"
       },
       {
         "id": "p9v2",
         "color": "Green",
         "price": 4599,
-        "image": "/optimized/fabric_velvet_green.jpg"
+        "image": "/optimized/fabric_velvet_green.webp"
       }
     ]
   },
@@ -524,7 +524,7 @@
         "id": "p10v1",
         "color": "Classic Red",
         "price": 4999,
-        "image": "/optimized/party_wear_dress.jpg"
+        "image": "/optimized/party_wear_dress.webp"
       }
     ]
   },
@@ -546,7 +546,7 @@
         "id": "p11v1",
         "color": "Red",
         "price": 2899,
-        "image": "/optimized/marizza_red.jpg"
+        "image": "/optimized/marizza_red.webp"
       }
     ]
   },
@@ -568,13 +568,13 @@
         "id": "p12v1",
         "color": "Red",
         "price": 4199,
-        "image": "/optimized/mk_brand_red.jpg"
+        "image": "/optimized/mk_brand_red.webp"
       },
       {
         "id": "p12v2",
         "color": "Pink",
         "price": 4199,
-        "image": "/optimized/mk_brand_pink.jpg"
+        "image": "/optimized/mk_brand_pink.webp"
       }
     ]
   },
@@ -596,7 +596,7 @@
         "id": "p13v1",
         "color": "Classic",
         "price": 4099,
-        "image": "/optimized/sa_shri_woolen_cord_set.jpg"
+        "image": "/optimized/sa_shri_woolen_cord_set.webp"
       }
     ]
   },
@@ -619,7 +619,7 @@
         "id": "p14v1",
         "color": "Brand Red",
         "price": 5000,
-        "image": "/optimized/koshki_brand_red.jpg"
+        "image": "/optimized/koshki_brand_red.webp"
       }
     ]
   },
@@ -641,7 +641,7 @@
         "id": "p15v1",
         "color": "Dark Maroon Rich",
         "price": 3800,
-        "image": "/optimized/bran_portway_dark_maroon.jpg"
+        "image": "/optimized/bran_portway_dark_maroon.webp"
       }
     ]
   },
@@ -663,7 +663,7 @@
         "id": "p16v1",
         "color": "Red Maroon",
         "price": 3800,
-        "image": "/optimized/brand_porway_red_maroon.jpg"
+        "image": "/optimized/brand_porway_red_maroon.webp"
       }
     ]
   },
@@ -684,7 +684,7 @@
         "id": "p17v1",
         "color": "XL Edition",
         "price": 3500,
-        "image": "/optimized/portway_xl.jpg"
+        "image": "/optimized/portway_xl.webp"
       }
     ]
   }
