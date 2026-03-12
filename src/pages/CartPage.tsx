@@ -4,8 +4,6 @@ import { useCart } from '../context/CartContext';
 import OptimizedImage from '../components/OptimizedImage';
 
 const formatPrice = (value: number) => `Rs ${value.toLocaleString()}`;
-const DISCORD_WEBHOOK_URL =
-  'https://discord.com/api/webhooks/1481301750744092682/Towd38cHyHjFoL7ABPxirW77qrVKt4sWwyjjITbFMP-VDMcqfWdyPlG4Zb6qu3s_jcl8';
 
 type CheckoutForm = {
   name: string;
@@ -66,44 +64,27 @@ function CartPage() {
     setFeedback(null);
 
     try {
-      const payload = {
-        content: 'New front-end cart checkout request',
-        embeds: [
-          {
-            title: 'New Order',
-            color: 8195151,
-            fields: [
-              { name: 'Customer Name', value: form.name.trim(), inline: false },
-              { name: 'Phone Number', value: form.phone.trim(), inline: false },
-              { name: 'Email', value: form.email.trim() || 'N/A', inline: false },
-              { name: 'Address', value: form.address.trim(), inline: false },
-              { name: 'Total Items', value: String(totalItems), inline: false },
-              { name: 'Subtotal', value: formatPrice(subtotal), inline: false },
-              { name: 'Order Items', value: buildOrderLines(), inline: false },
-              { name: 'Notes', value: form.notes.trim() || 'N/A', inline: false }
-            ],
-            timestamp: new Date().toISOString()
-          }
-        ]
+      // Webhook dispatch is intentionally disabled for now.
+      const _orderPreview = {
+        customerName: form.name.trim(),
+        phoneNumber: form.phone.trim(),
+        email: form.email.trim() || 'N/A',
+        address: form.address.trim(),
+        totalItems,
+        subtotal: formatPrice(subtotal),
+        orderItems: buildOrderLines(),
+        notes: form.notes.trim() || 'N/A',
+        timestamp: new Date().toISOString()
       };
-
-      const response = await fetch(DISCORD_WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
-      });
-
-      if (!response.ok) {
-        throw new Error(`Webhook failed: ${response.status}`);
-      }
+      void _orderPreview;
 
       clearCart();
       setForm(initialForm);
-      setFeedback({ type: 'success', text: 'Order placed successfully. Your checkout request has been sent.' });
+      setFeedback({ type: 'success', text: 'Order placed successfully.' });
     } catch {
       setFeedback({
         type: 'error',
-        text: 'Could not send order to checkout channel. Please try again.'
+        text: 'Could not place order. Please try again.'
       });
     } finally {
       setPlacingOrder(false);
