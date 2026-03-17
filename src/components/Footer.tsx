@@ -74,7 +74,19 @@ function Footer() {
           </ul>
         </div>
       </div>
-      <p className="text-center text-xs text-slate-400 pb-5">© {new Date().getFullYear()} OSHA Clothing & Apparels</p>
+      <div className="mx-auto w-[min(1240px,94vw)] pb-5 flex flex-col md:flex-row gap-2 md:gap-4 md:items-center">
+        <p className="text-xs text-slate-400">
+          © {new Date().getFullYear()} OSHA Clothing & Apparels
+        </p>
+        <a
+          href="https://sajedar.com"
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          className="text-xs text-slate-400 md:ml-auto hover:text-white"
+        >
+          Powered by sajedar.com
+        </a>
+      </div>
     </footer>
   );
 }
